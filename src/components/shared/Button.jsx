@@ -1,8 +1,4 @@
-import { click } from '@testing-library/user-event/dist/click'
-import { isDisabled } from '@testing-library/user-event/dist/utils'
 import PropTypes from 'prop-types'
-import { version } from 'react'
-
 
 function Button({btnText, btnType, version, isDisabled, clickFunction}) {
   return (
@@ -12,11 +8,6 @@ function Button({btnText, btnType, version, isDisabled, clickFunction}) {
   )
 }
 
-// Button.defaultProps = {
-//     children: 'Send',
-//     version:'primary',
-//     isDisabled: false
-// }
 
 Button.propTypes = {
     btnText: PropTypes.node.isRequired,

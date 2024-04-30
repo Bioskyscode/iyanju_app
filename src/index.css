@@ -25,8 +25,8 @@
   color: #bbbdf8;
   border-radius: 7px;
   padding: 10px;
-  height: 90px;
-  max-height: 90px;
+  height: 120px;
+
 }
 .advise-msg{
   color: #ffa9c2;
@@ -245,7 +245,10 @@ input:focus {
   margin: 10px 0;
 }
 
-
+.isloading{
+  color: #ff6a95;
+  margin: 50px 50%;
+}
 
 @media (max-width: 600px) {
   .rating li {
