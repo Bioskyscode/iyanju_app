@@ -53,7 +53,7 @@ function RatingSelect({selectedButton}) {
   return (
     <ul className="rating">
         {data.map((item, index)=> 
-        <li>
+        <li key={index}>
         <input
          type="radio" 
         id={index}

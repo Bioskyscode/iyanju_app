@@ -18,9 +18,9 @@ function Feedbacklist() {
     return (isLoading ? <i className="fa-solid fa-rotate fa-spin fa-2xl isloading"></i>:  (
       <div className="feedback-list">
           {feedback.slice(0, showmore).map(item => 
-          <Fade right key={item.id}>
-            <FeedbackItems  feedbacksItem={item} />
-          </Fade>
+          // <Fade right key={item.id}>
+            <FeedbackItems  key={item.id} feedbacksItem={item} />
+          // </Fade>
           )}
           {showmore >= feedback.length ? null : <Button clickFunction={loadMore} version="secondary" btnText= "Load More"/>}
           

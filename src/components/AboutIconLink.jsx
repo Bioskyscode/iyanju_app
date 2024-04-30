@@ -5,7 +5,7 @@ function AboutIconLink() {
     <div className="about-link">
         <Link to= '/about'>
         
-        <i class="fa-solid fa-question fa-xl"></i>
+        <i className="fa-solid fa-question fa-xl"></i>
         </Link>
     </div>
   )

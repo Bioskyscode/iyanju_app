@@ -52,7 +52,7 @@ function FeedbackForm() {
     }
 
   return (
-    <Zoom>
+    // <Zoom>
     <Card> 
         <form onSubmit={handleSubmit}>
             <h2>How would you rate your service with us?</h2>
@@ -66,7 +66,7 @@ function FeedbackForm() {
         </form>
     </Card> 
 
-    </Zoom>
+    // </Zoom>
   )
 }
 

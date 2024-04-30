@@ -8,19 +8,19 @@ function AdviseSection() {
     const { fetchAdvice, advice, count } = useContext(FeedbackContext)
     return (
         <div>
-            <Fade left>
+            {/* <Fade left> */}
             <Card reverse={true} >
                 <div className="advice-container">
                     <div className="advice">{advice}</div>
                     <Button clickFunction={fetchAdvice} version="secondary" btnText="Get Advice" />
-                    <div className="advise-msg">{count === 0 ? <div><i class="fa-solid fa-arrow-up fa-fade"></i></div> : `${count}  Advice read`}</div>
+                    <div className="advise-msg">{count === 0 ? <div><i className="fa-solid fa-arrow-up fa-fade"></i></div> : `${count}  Advice read`}</div>
                 </div>
             </Card>
-            </Fade>
+            {/* </Fade> */}
             
-            <Zoom>
+            {/* <Zoom> */}
             <hr />
-            </Zoom>
+            {/* </Zoom> */}
 
         </div>
     )
