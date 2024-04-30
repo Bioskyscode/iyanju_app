@@ -1,5 +1,5 @@
 import FeedbackItems from "./FeedbackItems"
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import FeedbackContext from "../context/FeedbackContext";
 import { useContext, useState } from "react";
 import Button from "./shared/Button";

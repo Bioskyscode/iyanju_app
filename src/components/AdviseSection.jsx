@@ -3,7 +3,7 @@ import Button from "./shared/Button"
 import Card from "./shared/Card"
 import FeedbackContext from "../context/FeedbackContext"
 import { useContext } from "react"
-import {Fade, Zoom} from 'react-reveal';
+// import {Fade, Zoom} from 'react-reveal';
 function AdviseSection() {
     const { fetchAdvice, advice, count } = useContext(FeedbackContext)
     return (

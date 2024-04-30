@@ -2,7 +2,7 @@ import {useContext, useEffect, useState } from "react"
 import Card from "./shared/Card"
 import Button from "./shared/Button"
 import RatingSelect from "./RatingSelect"
-import Zoom from 'react-reveal/Zoom';
+// import Zoom from 'react-reveal/Zoom';
 import FeedbackContext from "../context/FeedbackContext";
 
 function FeedbackForm() {
