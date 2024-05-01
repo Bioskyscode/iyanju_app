@@ -1,5 +1,5 @@
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+"use client"
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import Header from './components/Header'
 import Feedbacklist from './components/Feedbacklist'
 import FeedbackStat from './components/FeedbackStat'
@@ -8,6 +8,9 @@ import AboutPage from "./Pages/AboutPage";
 import {FeedbackProvider} from "./context/FeedbackContext";
 import AboutIconLink from "./components/AboutIconLink";
 import AdviseSection from "./components/AdviseSection";
+import { AnimatePresence } from "framer-motion";
+import Loader from "./components/Loader";
+
 
 function App() {
 
@@ -17,8 +20,10 @@ function App() {
         <Router>
 
             <Header />
+           <Loader />
             <div className='container'>
-                <Routes>
+                <AnimatePresence>
+                <Routes >
                     <Route exact path="/" element={
                         <>
                         <AdviseSection />
@@ -31,6 +36,7 @@ function App() {
 
                     <Route path="/about" element={<AboutPage />}></Route>
                 </Routes>
+                </AnimatePresence>
             </div>
 
         </Router>

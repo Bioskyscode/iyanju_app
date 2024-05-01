@@ -249,6 +249,16 @@ input:focus {
   color: #ff6a95;
   margin: 50px 50%;
 }
+.button-motion{
+  width: fit-content;
+}
+.loader{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+}
 
 @media (max-width: 600px) {
   .rating li {
