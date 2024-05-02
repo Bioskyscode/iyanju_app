@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const loadervariants= {
     animationOne: {
         backgroundColor: "#64748b",
-        x:[-300, 350],
+        x:[-100, 200],
         y:[10, -10],
         transition: {
             x:{

@@ -8,11 +8,11 @@ import { AnimatePresence, motion, useInView } from "framer-motion";
 const listVariant = {
   init: {
     opacity:0,
-    x: 350
+    y: -70
   },
   visible: {
     opacity:1,
-    x: 0,
+    y: 0,
     transition: { type: "spring", stiffness: 70 }
   },
   hover: {
