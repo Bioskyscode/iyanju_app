@@ -2,9 +2,9 @@ import React from 'react'
 import { motion } from "framer-motion";
 const loadervariants= {
     animationOne: {
-        backgroundColor: "#f87171",
+        backgroundColor: "#64748b",
         x:[-300, 350],
-        y:[20, -50],
+        y:[10, -10],
         transition: {
             x:{
                 repeat: Infinity,
@@ -12,7 +12,7 @@ const loadervariants= {
             },
             y:{
                 repeat: Infinity,
-                duration: 0.75,
+                duration: 1,
                 ease:"easeOut"
             }
         }

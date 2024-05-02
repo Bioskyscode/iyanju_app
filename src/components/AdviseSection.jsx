@@ -34,7 +34,7 @@ function AdviseSection() {
                     variants={buttonVariants}
                         whileHover= "hover"
                     >
-                        <Button clickFunction={fetchAdvice} version="secondary" btnText="Get Advice" />
+                        <Button clickFunction={fetchAdvice} version="primary" btnText="Get Advice" />
                     </motion.div>
                     <div className="advise-msg">{count === 0 ? <div><i className="fa-solid fa-arrow-up fa-fade"></i></div> : `${count}  pieces of dvice read`}</div>
                 </div>
