@@ -54,7 +54,8 @@ function Feedbacklist() {
             whileInView="visible"
             // animate= {isInView  && "visible"}
             // whileInView="visible"
-             viewport={{margin:"-40px"}}
+            //  viewport={{margin:"-40px"}}
+            viewport={{once: true}}
             exit="remove"
             whileHover="hover"
           >
